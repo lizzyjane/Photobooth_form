@@ -1,0 +1,27 @@
+form {
+
+}
+
+fieldset {
+
+}
+
+input {
+	font-size: 4rem;
+
+	&[type='submit'] {
+		font-weight: bold;
+		display: inline-block;
+		text-align: center;
+		height: 8rem;
+		width: 30rem;
+		border: 5px solid #fdf9d8;
+		background-color: #ed7b7c;
+		color: white;
+		font-size: 2rem;
+		font-family: baronNeueBlack;
+		text-transform: lowercase;
+	}
+
+}
+

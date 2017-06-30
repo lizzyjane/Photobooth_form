@@ -1,0 +1,58 @@
+*,
+*:after,
+*:before {
+    box-sizing: content-box;
+}
+
+*:focus {
+    outline: none; // remove outline from all focused elements
+}
+
+*::selection {
+    background: inherit;
+    color: #fff;
+}
+
+@font-face {
+    font-family: baronNeueBlack;
+    src: url(font/Baronneueblack.otf);
+}
+
+@font-face {
+    font-family: baronNeueBold;
+    src: url(font/Baronneuebold.otf);
+}
+
+html {
+    // Set the base font size for rem sizes
+    font-size:62.5%;
+    font-family: baronNeueBlack;
+
+    // Add cross-browser antialiasing
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    width: 100%;
+
+    // Other base styling
+    text-rendering: auto;
+    -webkit-text-size-adjust: 100%;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#wrapper {
+    *,
+    *:after,
+    *:before {
+        box-sizing: border-box;
+    }
+}

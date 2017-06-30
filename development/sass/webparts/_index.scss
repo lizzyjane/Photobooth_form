@@ -1,0 +1,250 @@
+body {
+    padding: 0;
+    background: #fdf9d8;
+}
+
+.background {
+    position: relative;
+    float: left;
+    width: 50vh;
+    max-width: 60vh;
+    height: 100%;
+    margin: 1rem;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -ms-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.input {
+    display: block;
+    padding: 20px 5px;
+    width: 1000px;
+    max-width: 100%;
+    margin: 30px 0;
+    background: none;
+    border: none;
+    border-bottom: 3px solid black;
+}
+
+.person {
+    cursor: pointer;
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.pirate {
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.pirateperson {
+    -webkit-transition: color 0.5s ease-in-out;
+    -moz-transition: color 0.5s ease-in-out;
+    -ms-transition: color 0.5s ease-in-out;
+    -o-transition: color 0.5s ease-in-out;
+    transition: color 0.5s ease-in-out;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.list{
+    list-style: none;
+    display: inline-block;
+}
+
+// .list li {
+//     display: inline-block;
+//     padding: 50px 50px;
+// }
+
+form {
+    display: inline-block;
+}
+
+.background-list {
+    list-style: none;
+}
+
+.center-bg {
+    margin: 0 auto;
+    width: 85%;
+    padding: 10px;
+}
+
+.bg-list {
+    overflow: scroll;
+    height: 63vh;
+}
+
+.form {
+    text-align: center;
+    display: none;
+}
+
+.form-1 {
+    display: inline;
+}
+
+#wrapper {
+    margin-top: 5rem;
+    height: 50%;
+    width: 100%;
+}
+
+.container {
+    width: 100%;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.arrow-right {
+    // display: inline-block;
+    // right: 0;
+    // margin-top: -72px;
+    // padding: 22px;
+    // position: absolute;
+    position: relative;
+}
+
+.arrow-right_img {
+    position: fixed;
+    top: 4rem;
+    right: 2rem;
+    height: 6em;
+    z-index: 10;
+}
+
+.arrow-left {
+    position: relative;
+}
+
+
+.arrow-left_img {
+    position: fixed;
+    top: 4rem;
+    left: 2rem;
+    height: 6em;
+    z-index: 10;
+}
+
+.headerbar {
+    background-color: #ed7b7c;
+    height: 2rem;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    text-align: center;
+}
+
+.bannertext {
+    left: 0;
+    position: absolute;
+    top: 1.2rem;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 2.3rem;
+}
+
+.ty-text {
+    font-size: 4rem;
+    width: 85vh;
+    text-align: center;
+    margin: 4rem auto;
+}
+
+.formbutton {
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2rem;
+    text-align: center;
+    border: 5px solid #fdf9d8;
+    background-color: #ed7b7c;
+    color: white;
+    font-size: 2rem;
+}
+
+.formbutton-center {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+li.person {
+    font-size: 7rem;
+    font-style: bold;
+    margin: 2rem;
+}
+
+ul {
+    padding: 0;
+}
+
+.required {
+
+    &:after {
+        content: "*";
+        color: red;
+    }
+}
+
+.pirateperson {
+    margin: 2rem;
+    padding: 2rem;
+    cursor: pointer;
+    float: left;
+}
+
+.pirate {
+    height: 5rem;
+    cursor: pointer;
+}
+
+.parrot {
+    height: 15rem;
+    z-index: 2;
+    position: absolute;
+    bottom: 2.5rem;
+    right: 5rem;
+}
+
+.swordisland {
+    text-align: center;
+}
+
+.swordislandimg {
+    width: 65vh;
+    max-width: 70vh;
+}
+
+.ty-text {
+    font-size: 5rem;
+    width: 80vh;
+    text-align: center;
+    margin: 5rem auto;
+}
+
+.footerbar {
+    background-color: #fce130;
+    z-index: 1;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    margin: 0;
+    height: 5rem;
+}
